@@ -1,0 +1,320 @@
+\subsection*{第二次习题}
+\setcounter{problemname}{0}
+
+\begin{problem}
+	\myline 优先权是在创建进程时确定的，确定之后在整个进程运行期间不再改变。
+	\textbf{B}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 动态
+			\item 静态
+			\item 短作业
+			\item 先来先服务
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	下列进程状态变化中，\myline 变化是不可能发生的。
+	\textbf{C}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 等待$\rightarrow$就绪
+			\item 运行$\rightarrow$就绪
+			\item 等待$\rightarrow$运行
+			\item 运行$\rightarrow$等待
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	​当 \myline 时，进程从运行状态变为就绪状态。
+	\textbf{D}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 进程被调度程序选中
+			\item 等待某一事件
+			\item 等待的事件发生
+			\item 时间片到
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	进程管理中，当 \myline 时进程从阻塞态变成就绪态。
+	\textbf{D}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 进程被进程调度程序选中
+			\item 时间片用完
+			\item 等待一个事件
+			\item 等待的事件发生
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	下面对进程的描述中，错误的是 \myline。
+	\textbf{A}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 进程是指令的集合
+			\item 进程执行需要处理机
+			\item 进程是有生命周期的
+			\item 进程是动态的概念
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	下面所述步骤中，\myline 不是创建进程所必需的。
+	\textbf{B}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 建立一个进程控制块
+			\item 由调度程序为进程分配CPU
+			\item 将进程控制块链入就绪队列
+			\item 为进程分配内存
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	多道程序环境下，操作系统分配资源以 \myline 为基本单位。
+	\textbf{A}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 进程
+			\item 程序
+			\item 线程
+			\item 指令
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	下述哪一个选项体现了原语的主要特点 \myline。
+	\textbf{A}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 不可分割性
+			\item 共享性
+			\item 并发性
+			\item 异步性
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	‌关于内核级线程，以下描述不正确的是 \myline。
+	\textbf{D}
+		\begin{enumerate}[label=\Alph*.]
+			\item 建立和维护线程的数据结构及保存每个线程的入口
+			\item 内核可以将处理器调度直接分配给某个内核级线程
+			\item 可以将一个进程的多个线程分派到多个处理器，能够发挥多处理器并行工作的优势
+			\item 控制权从一个线程传送到另一个线程时不需要用户态—内核态—用户态的模式切换；
+		\end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+	一个进程被唤醒意味着 \myline。
+	\textbf{B}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 该进程重新占有了CPU
+			\item 进程变为就绪状态
+			\item 其PCB移至等待队列队首
+			\item 它的优先权变为最大
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	在引入线程的操作系统中，资源分配的基本单位是 \myline。
+	\textbf{D}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 作业
+			\item 线程
+			\item 程序
+			\item 进程
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	在下述关于父进程和子进程的叙述中，正确的是 \myline。
+	\textbf{B}
+		\begin{enumerate}[label=\Alph*.]
+			\item 父进程创建了子进程，因此父进程执行完了，子进程才能运行
+			\item 父进程和子进程可以并发执行
+			\item 撤销子进程时，应该同时撤销父进程
+			\item 撤销父进程时，应该同时撤销子进程
+		\end{enumerate}
+\end{problem}
+
+
+\begin{problem}
+	对进程的管理和控制使用 \myline。
+	\textbf{B}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 指令
+			\item 原语
+			\item 信号量
+			\item 信箱通信
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	所谓“可重入”程序是指 \myline。
+	\textbf{C}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 不能够被多个程序同时调用的程序
+			\item 在执行过程中其代码自身会发生变化的程序
+			\item 能够被多个进程共享的程序
+			\item 无限循环程序
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	原语是 \myline。
+	\textbf{C}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 可中断的指令序列
+			\item 运行在用户态下的过程
+			\item 不可中断的指令序列
+			\item 操作系统的内核
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	在进程调度算法中，对短进程不利的是 \myline。
+	\textbf{D}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 短进程优先调度算法
+			\item 高响应比优先算法
+			\item 多级反馈队列调度算法
+			\item 先来先服务算法
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	一个可共享的程序在执行过程中是不能被修改的，这样的程序代码应该是 \myline。
+	\textbf{B}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 封闭的代码
+			\item 可重入代码
+			\item 可执行代码
+			\item 可再现代码
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	在进程管理中，当 \myline 时，进程状态从运行态转换到就绪态。
+	\textbf{B}
+	\vspace{-0.5em}
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\Alph*.]
+			\item 进程被调度程序选中
+			\item 时间片用完
+			\item 等待某一事件发生
+			\item 等待的事件发生
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	Solaris的多线程的实现方式为 \myline。
+	\textbf{A}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 混合式
+			\item 纯用户级多线程
+			\item 纯内核级线程
+			\item 单线程结构进程
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
+
+
+\begin{problem}
+	在UNIX系统中运行以下程序，最多可再产生出 \myline 进程?
+	\textbf{D}
+	\begin{lstlisting}
+main( ){
+   fork( ); /*←pc(程序计数器)，进程A
+   fork( );
+   fork( );
+}
+	\end{lstlisting}
+	\vspace{-0.5em}
+	\begin{multicols}{4}
+		\begin{enumerate}[label=\Alph*.]
+			\item 3
+			\item 9
+			\item 5
+			\item 7
+		\end{enumerate}
+	\end{multicols}
+	\vspace{-1em}
+\end{problem}
